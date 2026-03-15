@@ -190,17 +190,19 @@ Several evaluation metrics were used to assess the classifier's performance:
 
 - **Accuracy** – measures the overall proportion of correctly classified messages  
 - **Precision** – measures the reliability of spam predictions  
-- **Recall** – measures how effectively the model detects spam messages  
+- **Recall** – measures how effectively the model detects spam messages
+- **F1-Score** - measures the balance between precision and recall, indicating how well the model handles both false positives and false negatives
 
 These metrics provide a more complete understanding of the model’s performance than accuracy alone.
 
 **Example output obtained from the experiment:**
 
-- **Accuracy:** ~97%  
-- **Precision:** ~95%  
-- **Recall:** ~94%
+- **Accuracy:** 97.85%  
+- **Precision:** 91.45%  
+- **Recall:** 92.67%
+- **F1-Score:** 92.05%
 
-The high accuracy indicates that the classifier correctly identifies the majority of messages. High precision suggests that most messages predicted as spam are actually spam, while high recall shows that the model is able to detect a large portion of the true spam messages.
+The high accuracy indicates that the classifier correctly identifies the majority of messages. High precision suggests that most messages predicted as spam are actually spam, while high recall shows that the model is able to detect a large portion of the true spam messages. Finally, the high F1-score summarizes the overall balance between precision and recall in the classifier’s performance.
 
 ---
 
