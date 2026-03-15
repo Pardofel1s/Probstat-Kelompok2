@@ -9,6 +9,7 @@
 
 
 ## 1. Bayes' Theorem Overview
+Teorema Bayes menjelaskan bagaimana cara kita membalik probabilitas bersyarat. Probabilitas bersyarat mengajarkan kita bagaimana mencari peluang hasil dari suatu kondisi. Pada Teorema Bayes kita diajarkan bagaimana mencari peluang suatu kondisi jika kita sudah mengetahui hasilnya.
 
 ## 2. Application of Bayes' Theorem in the Naive Bayes Algorithm
 
