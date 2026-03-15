@@ -85,9 +85,9 @@ $$\hat{y} = \arg\max_y \left( P(y) \prod_{i=1}^{n} P(x_i | y) \right)$$
 
 Let's say we look at a student's short bio containing just two words: "C++" and "Data". We want to classify it as $y=\text{Informatics}$ or $y=\text{Industrial}$.
 
-1. **Calculate the Priors ($P(y)$):** Based on the student population data on campus, let's say 20% are Informatics Engineering students ($0.20$) and 80% are Industrial Engineering students ($0.80$).
+1. **Calculate the Priors** ($P(y)$): Based on the student population data on campus, let's say 20% are Informatics Engineering students ($0.20$) and 80% are Industrial Engineering students ($0.80$).
 
-2. **Calculate the Likelihoods ($P(x_i|y)$):** We look at our training data to find how often these words appear in the bios for each major.
+2. **Calculate the Likelihoods** ($P(x_i|y)$): We look at our training data to find how often these words appear in the bios for each major.
    - Probability of "C++" given they are Informatics: $P(\text{C++}|\text{Informatics}) = 0.70$
    - Probability of "Data" given they are Informatics: $P(\text{Data}|\text{Informatics}) = 0.50$
    - Probability of "C++" given they are Industrial: $P(\text{C++}|\text{Industrial}) = 0.05$
